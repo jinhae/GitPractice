@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         ac.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
         
         print("Hello")
+        print("Pull Request")
     }
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
