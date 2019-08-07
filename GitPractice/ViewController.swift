@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         ac.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
         
+        print("Hello")
     }
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
