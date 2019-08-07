@@ -9,12 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
-    let ac = UIAlertController(title: "Title", message: "Message", preferredStyle: .alert)
+    
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        ac.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+        
         
         print("Hello")
         print("Pull Request")
@@ -23,8 +23,6 @@ class ViewController: UIViewController {
     }
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        
-        present(ac, animated: true, completion: nil)
     }
 
 }
