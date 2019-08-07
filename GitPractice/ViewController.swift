@@ -9,10 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    let ac = UIAlertController(title: "Title", message: "Message", preferredStyle: .alert)
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        ac.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+        
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        present(ac, animated: true, completion: nil)
     }
 
 }
